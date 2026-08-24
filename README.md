@@ -1,6 +1,6 @@
 # Awesome-Supply-Chain-Finance-Platform
 
-# Top Supply Chain Finance Platforms Ecosystem
+## Top Supply Chain Finance Platforms Ecosystem
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Reverse Factoring, Dynamic Discounting, Invoice Financing, Working Capital Optimization & Multi-Funder SCF Programs*
 **Last updated: August 2026**
