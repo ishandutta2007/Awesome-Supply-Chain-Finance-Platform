@@ -14,56 +14,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[PrimeRevenue](https://www.primerevenue.com/)**  
-  Global multi-funder supply chain finance platform connecting buyers, suppliers, and a broad network of funding partners for early payment and working-capital solutions.
 
-- **[Taulia (SAP)](https://taulia.com/)**  
-  Working-capital and SCF platform (now part of SAP) offering early payment, dynamic discounting, and deep ERP integration for large enterprise supply chains.
-
-- **[C2FO](https://c2fo.com/)**  
-  Dynamic discounting and working-capital marketplace that lets suppliers bid for early payment on approved invoices.
-
-- **[Demica](https://www.demica.com/)**  
-  Specialist in receivables and payables financing, structured SCF programs, and complex working-capital solutions for corporates.
-
-- **[Orbian](https://www.orbian.com/)**  
-  Supply chain finance provider offering flexible reverse-factoring and related programs with multinational reach.
-
-- **[Treasury Intelligence Solutions (TIS)](https://www.tis.biz/)**  
-  Treasury and payments platform with capabilities supporting SCF and working-capital processes.
-
-- **[CredAble](https://www.credable.in/)**  
-  Supply chain finance and working-capital platform particularly active in emerging markets and MSME financing.
-
-- **[Drip Capital](https://www.dripcapital.com/)**  
-  Trade and invoice financing platform focused on cross-border and export-oriented supply chains.
-
-- **[Modifi](https://www.modifi.com/)**  
-  Trade finance and SCF solutions aimed at improving liquidity for suppliers and buyers in global trade.
-
-- **[Finverity](https://www.finverity.com/)**  
-  Digital trade and supply chain finance platform supporting invoice and receivables financing.
-
-- **[FIS Supply Chain Finance](https://www.fisglobal.com/)**  
-  Enterprise SCF capabilities within the broader FIS treasury and financial technology portfolio.
-
-- **[GTreasury](https://www.gtreasury.com/)**  
-  Treasury management platform with modules supporting working-capital and supply-chain finance processes.
-
-- **[Tradeshift](https://tradeshift.com/)**  
-  Business commerce network that includes SCF and early-payment capabilities alongside procurement and invoicing.
-
-- **[Incomlend](https://www.incomlend.com/)**  
-  Invoice financing and trade finance platform connecting suppliers with institutional funders.
-
-- **[Stemly](https://www.stemly.ai/)**  
-  AI-driven working-capital and cash-flow optimization platform with SCF-adjacent capabilities.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[PrimeRevenue](https://www.primerevenue.com/)** | Global multi-funder supply chain finance platform connecting buyers, suppliers, and funding partners for early payment. | Enterprise buyer license from ~$25,000/year base platform fee + supplier discount margin (SOFR/EURIBOR + 1.0%–2.5% margin per invoice advanced). | **Free forever for suppliers**: Unlimited invoice status tracking, PO visibility, and remittance advice with 0 portal fees; 0-day buyer trial (custom demo/working capital analysis upon request). |
+| **[Taulia (SAP)](https://taulia.com/)** | Working-capital and SCF platform offering dynamic discounting, reverse factoring, and ERP integration. | Enterprise buyer annual subscription starting at ~$30,000/year + dynamic early payment discount rate (~1.0%–2.0% APR per accelerated invoice). | **Free forever for suppliers**: Unlimited electronic invoice submission, purchase order acknowledgment, and payment tracking; 0-day buyer trial (guided enterprise demo upon request). |
+| **[C2FO](https://c2fo.com/)** | Dynamic discounting & working-capital marketplace where suppliers set rates for early payment on approved invoices. | Free portal access for suppliers + supplier-offered early payment discount (typically 0.5%–2.0% per 30-day acceleration or ~6%–18% annualized APR); buyers pay ~5%–10% shared-savings fee. | **Free forever plan for suppliers**: Unlimited invoice browsing, offer bidding, and cash flow forecasting with 0 setup or transaction fees; 0-day buyer trial (custom pilot program on agreement). |
+| **[Demica](https://www.demica.com/)** | Structured SCF, receivables, and payables financing platform for large corporates and financial institutions. | Enterprise platform fee starting from ~$35,000/year + 0.15%–0.50% AUM administration fee on funded receivables facilities. | **Free forever for enrolled suppliers**: Unlimited invoice viewing and status tracking; 0-day anchor trial (custom sandbox/demo environment available during procurement). |
+| **[Orbian](https://www.orbian.com/)** | Universal multi-currency reverse-factoring and supply chain finance program provider. | 0 setup/monthly fees for suppliers; discount rate of benchmark rate (SOFR) + 0.8%–1.8% per annum margin; corporate buyer program fee starting at ~$20,000/year. | **Free forever for suppliers**: Unlimited invoice viewing, settlement notifications, and portal access with 0 account/maintenance fees; 0-day buyer trial (pilot demonstration on request). |
+| **[Treasury Intelligence Solutions (TIS)](https://www.tis.biz/)** | Enterprise cloud platform for corporate payments, bank connectivity, cash visibility, and working capital optimization. | SaaS subscription starting at ~$1,500/month (~$18,000/year base tier for multi-bank connectivity & cash management) + volume-based tiering. | **0-day free trial** (no self-service freemium); interactive guided product demo and custom proof-of-concept (POC) sandbox provided upon qualification. |
+| **[CredAble](https://www.credable.in/)** | Working capital and SCF platform specializing in enterprise vendor financing, MSME early payments, and receivable discounting. | 0 upfront/registration fee; processing fee up to 2% p.a. + financing interest rates starting at ~0.75%–1.5% per month (~9%–18% p.a.) on utilized credit limit. | **Free forever for vendors**: Unlimited vendor registration, purchase order tracking, and invoice status viewing with 0 account fees; 0-day buyer trial (guided corporate demo on request). |
+| **[Drip Capital](https://www.dripcapital.com/)** | Cross-border trade finance & export invoice factoring platform for international supply chains. | Financing rates starting at 0.8%–1.4% per month (~9.6%–16.8% APR) + 0.54% monthly factoring commission + 0.3%–1% one-time facility setup fee (advances up to 90% of invoice value). | **Free forever trade evaluation**: Free registration and automated buyer/supplier credit limit assessment with 0 upfront software fees; 0-day trial for disbursed funds. |
+| **[MODIFI](https://www.modifi.com/)** | Global business payments and trade finance platform providing digital export invoice factoring. | Starting at 0.99% per 30 days (advances up to 80%–90% of invoice value, terms 30–120 days) + fixed disbursement fee (~$15–$30 per payout). | **Free forever digital account**: Free registration, buyer credit risk checks, and invoice upload with 0 monthly subscription fees; 0-day trial for financed transactions. |
+| **[Finverity](https://www.finverity.com/)** | Digital trade and supply chain finance ecosystem technology (FinverityOS) and capital syndication platform. | FinverityOS SaaS license starting at ~$2,000/month (~$24,000/year) for trade asset management + transaction structuring fee (0.25%–0.75% of volume). | **0-day free trial** (no public freemium); 14-day assisted pilot and structured sandbox environment available upon institutional qualification. |
+| **[FIS Supply Chain Finance](https://www.fisglobal.com/)** | Comprehensive enterprise treasury and bank-agnostic SCF platform for global trade and payables processing. | Enterprise treasury package starting at ~$50,000/year base license (tiered by corporate revenue and connected banking rails) + bank syndication fees. | **Free forever for suppliers**: Unlimited portal access to view purchase orders, submit invoices, and track payment schedules; 0-day buyer trial (guided sandbox demo upon engagement). |
+| **[GTreasury](https://www.gtreasury.com/)** | Cloud-native treasury management system (TMS) with working capital and supply chain finance capabilities. | Modular TMS SaaS subscription starting at ~$2,500/month (~$30,000/year for core cash, bank connectivity, and SCF modules). | **0-day free trial** (no public freemium); guided proof-of-concept (POC) sandbox and custom demo available upon sales qualification. |
+| **[Tradeshift](https://tradeshift.com/)** | Global B2B e-invoicing and supply chain commerce network with embedded dynamic early payments. | Transaction tiers: $0.80/transaction (31–300 invoices/quarter), $0.60/transaction (301–3,000 invoices/quarter), $0.30/transaction (3,001–15,000 invoices/quarter); buyer network from ~$2,000/month. | **Free forever plan for up to 30 invoices/quarter** (includes basic digital invoicing, order confirmation, and payment status tracking). |
+| **[Incomlend](https://www.incomlend.com/)** | Non-recourse invoice financing marketplace connecting global suppliers with institutional investors. | Discount rates starting at 0.5%–1.2% per month (~6%–14.4% annualized on non-recourse advances up to 90% invoice value) + administrative fee (~0.2%–0.5% per trade). | **Free forever onboarding**: Free company verification, digital invoice upload, and credit assessment (0 monthly platform maintenance fee); 0-day trial for funded facilities. |
+| **[Stemly](https://www.stemly.ai/)** | AI-powered decision intelligence SaaS for cash flow forecasting, working capital, and supply chain optimization. | Enterprise AI SaaS subscription starting at ~$3,500/month (~$42,000/year base tier for cash flow and working capital optimization). | **0-day free trial** (no public free plan); 30-day customized proof-of-value (PoV) / pilot using historical corporate ERP data upon qualification. |
 
 ## Open-Source GitHub Projects
 - **[InvoFi and blockchain invoice tokenization projects](https://github.com/)**  
