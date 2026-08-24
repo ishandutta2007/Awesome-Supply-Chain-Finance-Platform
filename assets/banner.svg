@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060913" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#051c2c" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00c6ff" />
+    </linearGradient>
+
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f2fe" stop-opacity="1" />
+      <stop offset="100%" stop-color="#4facfe" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .pulse-circle {
+        animation: pulse 3s infinite ease-in-out;
+      }
+      .dash-flow {
+        stroke-dasharray: 12, 12;
+        animation: flow 20s linear infinite;
+      }
+      .dash-flow-rev {
+        stroke-dasharray: 10, 10;
+        animation: flowRev 25s linear infinite;
+      }
+      .shimmer-text {
+        animation: shimmer 6s infinite ease-in-out alternate;
+      }
+      .node-pulse {
+        animation: nodeGlow 2.5s infinite ease-in-out alternate;
+      }
+      .particle-1 { animation: floatSlow 6s ease-in-out infinite alternate; }
+      .particle-2 { animation: floatSlow 8s ease-in-out infinite alternate-reverse; }
+
+      @keyframes flow {
+        from { stroke-dashoffset: 400; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes flowRev {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 400; }
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.4; }
+        50% { transform: scale(1.15); opacity: 0.8; }
+      }
+      @keyframes nodeGlow {
+        0% { filter: drop-shadow(0 0 4px #00f2fe); }
+        100% { filter: drop-shadow(0 0 16px #4facfe); }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.85; filter: drop-shadow(0 0 12px rgba(0,242,254,0.3)); }
+        100% { opacity: 1; filter: drop-shadow(0 0 24px rgba(79,172,254,0.8)); }
+      }
+      @keyframes floatSlow {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-15px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#1e293b" stroke-width="2" />
+
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <circle cx="200" cy="180" r="140" fill="#00f2fe" opacity="0.08" class="particle-1" filter="url(#glow)" />
+  <circle cx="1000" cy="180" r="150" fill="#4facfe" opacity="0.08" class="particle-2" filter="url(#glow)" />
+
+  <g fill="none" stroke-width="2">
+    <path d="M 50 80 Q 300 20 600 80 T 1150 80" stroke="#00f2fe" stroke-opacity="0.3" class="dash-flow" />
+    <path d="M 50 280 Q 300 340 600 280 T 1150 280" stroke="#4facfe" stroke-opacity="0.3" class="dash-flow-rev" />
+    <path d="M 0 180 C 300 130, 450 230, 600 180 C 750 130, 900 230, 1200 180" stroke="url(#glowLine)" stroke-width="3" filter="url(#subtleGlow)" />
+  </g>
+
+  <g class="particle-1">
+    <g transform="translate(100, 180)">
+      <circle cx="0" cy="0" r="28" fill="#0f172a" stroke="#00f2fe" stroke-width="2" class="node-pulse" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">BUYER</text>
+      <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Payables</text>
+    </g>
+
+    <g transform="translate(1100, 180)">
+      <circle cx="0" cy="0" r="28" fill="#0f172a" stroke="#4facfe" stroke-width="2" class="node-pulse" />
+      <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">FUNDER</text>
+      <text x="0" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Liquidity</text>
+    </g>
+  </g>
+
+  <g text-anchor="middle" class="shimmer-text">
+    <g transform="translate(600, 75)">
+      <rect x="-170" y="-16" width="340" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.9" />
+      <circle cx="-145" cy="0" r="5" fill="#00f2fe" class="pulse-circle" />
+      <text x="10" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#38bdf8" letter-spacing="2">WORKING CAPITAL &amp; SCF ECOSYSTEM</text>
+    </g>
+
+    <text x="600" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="1">
+      Awesome <tspan fill="url(#accentGrad)">Supply Chain Finance</tspan>
+    </text>
+
+    <text x="600" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+      Reverse Factoring • Dynamic Discounting • Multi-Funder Platforms • Working Capital SaaS &amp; Open Source
+    </text>
+  </g>
+
+  <g transform="translate(600, 275)" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
+    <g transform="translate(-240, 0)">
+      <rect x="-85" y="-14" width="170" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="0" y="5" fill="#cbd5e1">&#x26A1; Early Payments</text>
+    </g>
+    <g transform="translate(-80, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="0" y="5" fill="#cbd5e1">&#x1F3E6; Multi-Bank SCF</text>
+    </g>
+    <g transform="translate(80, 0)">
+      <rect x="-65" y="-14" width="130" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="0" y="5" fill="#cbd5e1">&#x1F4CA; Cash Visibility</text>
+    </g>
+    <g transform="translate(240, 0)">
+      <rect x="-85" y="-14" width="170" height="28" rx="14" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="0" y="5" fill="#cbd5e1">&#x1F517; Smart Receivables</text>
+    </g>
+  </g>
+</svg>
